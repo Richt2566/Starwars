@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Star Wars Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game2.js"></script>
+</head>
+<body>
+
+<div id="content">
+
+	<div class="jumbotron col-md-12 col-lg-12">
+		<h1>Star Wars Battle!</h1>
+	</div>
+
+	
+	<div class="container">
+		<div class="row"> 
+			<div class="gallery col-md-5 col-lg-5">
+				<h2>Choose your character</h2>
+				<img id="ewok1" src="assets/images/ewok.jpg" width="100px" height="100px">
+				<img id="worm1" src="assets/images/worm.jpg" width="100px" height="100px">
+				<img id="chewy1" src="assets/images/chewy.jpg" width="100px" height="100px">
+				<img id="jarjar1" src="assets/images/jarjar.jpg" width="100px" height="100px">
+			</div>
+
+			<div class="gallery col-md-5 col-lg-5 enemypit">
+				<h2>Your Character</h2>
+				<img id="ewok2" src="assets/images/ewok.jpg" width="100px" height="100px">
+				<img id="worm2" src="assets/images/worm.jpg" width="100px" height="100px">
+				<img id="chewy2" src="assets/images/chewy.jpg" width="100px" height="100px">
+				<img id="jarjar2" src="assets/images/jarjar.jpg" width="100px" height="100px">
+
+			</div>
+
+			<div class="col-md-2 col-md-2">
+				<h2>Scores</h2>
+				<h3 id="comment1"></h3>
+				<h3 id="userhp">HP:</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class=" gallery col-md-5 col-lg-5">
+				<h2>Choose your enemy</h2>
+					<img id="ewok3" src="assets/images/ewok.jpg" width="100px" height="100px">
+					<img id="worm3" src="assets/images/worm.jpg" width="100px" height="100px">
+					<img id="chewy3" src="assets/images/chewy.jpg" width="100px" height="100px">
+					<img id="jarjar3" src="assets/images/jarjar.jpg" width="100px" height="100px">
+			</div>
+
+			<div>
+				<hr>
+				<button id="attackbutton">attack</button>
+				<hr>
+				
+			</div>
+
+			<div class="gallery col-md-5 col-lg-5">
+			<h2>Your enemy</h2>
+				<img id="ewok4" src="assets/images/ewok.jpg" width="100px" height="100px">
+				<img id="worm4" src="assets/images/worm.jpg" width="100px" height="100px">
+				<img id="chewy4" src="assets/images/chewy.jpg" width="100px" height="100px">
+				<img id="jarjar4" src="assets/images/jarjar.jpg" width="100px" height="100px">
+			</div>
+			
+			<div class="col-md-2 col-md-2">
+				<h2>Scores</h2>
+				<h3 id="comment2"></h3>
+				<h3 id="enemyhp">HP:</h3>
+			</div>
+			
+		</div>
+	</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
